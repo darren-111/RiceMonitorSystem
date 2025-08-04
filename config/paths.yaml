@@ -1,0 +1,12 @@
+data:
+  train: 'data/datasets/train/'
+  val: 'data/datasets/val/'
+  test: 'data/datasets/test/'
+
+models:
+  weights_dir: 'core/models/weights/'
+  pretrained: 'core/models/weights/yolov11.pt'
+
+output:
+  detections: 'output/detections/'
+  visualizations: 'output/visualizations/'

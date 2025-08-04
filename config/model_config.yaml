@@ -1,0 +1,10 @@
+model:
+  name: 'yolov11'
+  input_size: 640
+  num_classes: 10
+  anchors: [[10,13], [16,30], [33,23], [30,61], [62,45], [59,119], [116,90], [156,198], [373,326]]
+
+training:
+  batch_size: 16
+  epochs: 100
+  learning_rate: 0.001
